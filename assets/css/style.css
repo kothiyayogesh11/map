@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../Roboto-Bold.ttf);
+}
+
+.navbar-brand{color:#48a740 !important;}
+.map{margin-top:70px; margin-bottom:5px; position:relative; }
+.copyright{color:#fff; text-align:center; margin:0;}
+.copyright a{color:#48a740  !important;}
+footer{background-color: #343a40; padding:15px 0;}
+.map-search{ position:absolute; top:10px; right:10px; z-index:9;}
+.map-search button{color: #ffffff;
+    background-color: #343a40;
+    background-image: none;
+    border-color: transparent;}
+.navbar-brand img{width:60px;}
+.logo-title{font-size:32px;color:#48a740;}
+
+@media only screen and (max-width: 767px) {
+.map-search{ position:absolute; top:0px; right:10px;}
+.form-inline .form-control {display: inline-block !important;width: auto !important;vertical-align: middle !important;}
+.mr-sm-2, .mx-sm-2 {margin-right: 0.5rem !important;}
+}
